@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A21F386E28EF7A68002AA942 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21F386D28EF7A68002AA942 /* LocationsListView.swift */; };
 		A252C1DE28EC46FF009E819B /* map_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A252C1DD28EC46FF009E819B /* map_appApp.swift */; };
 		A252C1E028EC46FF009E819B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A252C1DF28EC46FF009E819B /* ContentView.swift */; };
 		A252C1E528EC4700009E819B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A252C1E428EC4700009E819B /* Preview Assets.xcassets */; };
@@ -15,9 +16,12 @@
 		A252C1F428EC4A25009E819B /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A252C1F328EC4A25009E819B /* LocationsDataService.swift */; };
 		A252C1F628EC5E5C009E819B /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A252C1F528EC5E5C009E819B /* LocationsView.swift */; };
 		A252C1F828EC616E009E819B /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A252C1F728EC616E009E819B /* LocationsViewModel.swift */; };
+		A26AE78A28F02A6F00489C01 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26AE78928F02A6F00489C01 /* LocationPreviewView.swift */; };
+		A26AE78C28F0423500489C01 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26AE78B28F0423500489C01 /* LocationMapAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A21F386D28EF7A68002AA942 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		A252C1DA28EC46FF009E819B /* map-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "map-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A252C1DD28EC46FF009E819B /* map_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map_appApp.swift; sourceTree = "<group>"; };
 		A252C1DF28EC46FF009E819B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +31,8 @@
 		A252C1F328EC4A25009E819B /* LocationsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		A252C1F528EC5E5C009E819B /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		A252C1F728EC616E009E819B /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		A26AE78928F02A6F00489C01 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		A26AE78B28F0423500489C01 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				A252C1F528EC5E5C009E819B /* LocationsView.swift */,
+				A21F386D28EF7A68002AA942 /* LocationsListView.swift */,
+				A26AE78928F02A6F00489C01 /* LocationPreviewView.swift */,
+				A26AE78B28F0423500489C01 /* LocationMapAnnotationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +191,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A252C1F428EC4A25009E819B /* LocationsDataService.swift in Sources */,
+				A26AE78C28F0423500489C01 /* LocationMapAnnotationView.swift in Sources */,
+				A21F386E28EF7A68002AA942 /* LocationsListView.swift in Sources */,
+				A26AE78A28F02A6F00489C01 /* LocationPreviewView.swift in Sources */,
 				A252C1F828EC616E009E819B /* LocationsViewModel.swift in Sources */,
 				A252C1E028EC46FF009E819B /* ContentView.swift in Sources */,
 				A252C1F628EC5E5C009E819B /* LocationsView.swift in Sources */,
