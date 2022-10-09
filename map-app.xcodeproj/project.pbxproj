@@ -18,6 +18,7 @@
 		A252C1F828EC616E009E819B /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A252C1F728EC616E009E819B /* LocationsViewModel.swift */; };
 		A26AE78A28F02A6F00489C01 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26AE78928F02A6F00489C01 /* LocationPreviewView.swift */; };
 		A26AE78C28F0423500489C01 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26AE78B28F0423500489C01 /* LocationMapAnnotationView.swift */; };
+		A2CE733028F2C78B00D7C672 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE732F28F2C78B00D7C672 /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		A252C1F728EC616E009E819B /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		A26AE78928F02A6F00489C01 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		A26AE78B28F0423500489C01 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		A2CE732F28F2C78B00D7C672 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				A21F386D28EF7A68002AA942 /* LocationsListView.swift */,
 				A26AE78928F02A6F00489C01 /* LocationPreviewView.swift */,
 				A26AE78B28F0423500489C01 /* LocationMapAnnotationView.swift */,
+				A2CE732F28F2C78B00D7C672 /* LocationDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				A252C1E028EC46FF009E819B /* ContentView.swift in Sources */,
 				A252C1F628EC5E5C009E819B /* LocationsView.swift in Sources */,
 				A252C1F128EC490F009E819B /* Location.swift in Sources */,
+				A2CE733028F2C78B00D7C672 /* LocationDetailView.swift in Sources */,
 				A252C1DE28EC46FF009E819B /* map_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
